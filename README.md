@@ -10,7 +10,7 @@ without a green light.
 
 ### 🛠️ Selected work
 - **[wohnungsmonitor](https://github.com/sebastian-spranger/wohnungsmonitor)** — 24/7 monitor over 5 Munich rental portals → filtered matches to Telegram in seconds. Free on GitHub Actions.
-- **[no-jobs](https://github.com/sebastian-spranger/no-jobs)** — job-fit monitor: polls 20+ sources, **two-stage LLM pipeline** (cheap prefilter → reasoning model scores 0–100 semantic fit). Precision over noise.
+- **Job-fit monitor** *(private)* — polls 20+ sources, **two-stage LLM pipeline** (cheap prefilter → reasoning model scores 0–100 semantic fit). Precision over noise.
 - **[ai-job-search](https://github.com/sebastian-spranger/ai-job-search)** — AI job-application framework on Claude Code: evaluates roles, tailors CVs, drafts cover letters.
 
 ### ⚙️ How I build
@@ -39,7 +39,7 @@ Günstige Modelle, wo sie reichen; starke Reasoning-Modelle nur, wo sie ihren Pr
 wert sind; und eine **Freigabe per Telegram**, bevor irgendetwas ausgeführt wird.
 
 - **wohnungsmonitor** — überwacht 5 Münchner Miet-Portale rund um die Uhr, filtert nach Miete/Größe/Pendelzeit, meldet Treffer in Sekunden per Telegram. Kostenlos via GitHub Actions.
-- **no-jobs** — Job-Matching-Monitor: fragt 20+ Quellen ab, bewertet mit **zweistufiger LLM-Pipeline** die semantische Passung (0–100) statt bloßer Keywords.
+- **Job-Matching-Monitor** *(privat)* — fragt 20+ Quellen ab, bewertet mit **zweistufiger LLM-Pipeline** die semantische Passung (0–100) statt bloßer Keywords.
 - **ai-job-search** — KI-Bewerbungs-Framework auf Claude Code: bewertet Rollen, passt CVs an, schreibt Anschreiben.
 
 **Aktuell:** ein hierarchisches Multi-Agenten-System für automatisiertes Personal
