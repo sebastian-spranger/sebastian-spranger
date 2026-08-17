@@ -1,59 +1,63 @@
-# Hi, I'm Sebastian 👋
+# Sebastian Spranger
 
-**B2B SaaS salesperson by trade — AI-automation builder by night.**
+I combine customer-facing B2B SaaS experience with hands-on Python and AI
+automation. I currently work full-time as a Sales Development Representative at
+StudySmarter | Vaia, building pipeline across the DACH market. I am moving toward
+Solutions Engineering roles where technical discovery, credible demos and
+commercial judgment matter equally.
 
-By day I run outbound and pipeline generation in B2B SaaS sales (SDR @ StudySmarter,
-**€260k+ closed**, DACH). Off the clock I teach myself to build **autonomous AI agent
-systems** that automate the repetitive work nobody should be doing by hand — and
-increasingly I bring that automation *into* go-to-market.
+Previously, as an Account Manager at 3DFrames, I personally closed three B2B SaaS
+contracts worth EUR 260k+ in six months, owning qualification, discovery,
+demonstrations and contract negotiation end to end. Outside my day job, I build
+small systems that turn repetitive processes into auditable workflows.
 
-My approach: **small, single-purpose agents** instead of one do-everything bot. Cheap
-models where they're good enough, strong reasoning models only where they earn their
-cost, and a **human-in-the-loop approval gate** so nothing ships without a green light.
-No AI slop — the machine drafts, I edit.
+## Selected work
 
-### 🛠️ Selected work
-- **[wohnungsmonitor](https://github.com/sebastian-spranger/wohnungsmonitor)** — 24/7 monitor over 5 Munich rental portals → filtered matches to Telegram in seconds. Free on GitHub Actions.
-- **Job-fit monitor** *(private)* — polls 20+ sources, **two-stage LLM pipeline** (cheap prefilter → reasoning model scores 0–100 semantic fit). Precision over noise.
-- **[ai-job-search](https://github.com/sebastian-spranger/ai-job-search)** — AI job-application framework on Claude Code: evaluates roles, tailors CVs, drafts cover letters.
+### [wohnungsmonitor](https://github.com/sebastian-spranger/wohnungsmonitor)
 
-### ⚙️ How I build
-`Python` · `TypeScript` · LLM orchestration (Claude · DeepSeek) · multi-agent
-workflows · Telegram bots · GitHub Actions · HubSpot · Sales Navigator
+A Python service that monitors Munich rental portals, normalizes listings,
+applies rent, size, location and commute filters, and sends relevant matches to
+Telegram. The current deployment runs as a 24/7 service on a VM, with a manual
+GitHub Actions fallback.
 
-### 🚧 Currently building
-A hierarchical multi-agent system for personal branding: a *manager* LLM proposes
-what's worth doing, single-task worker agents execute, and every action is approved
-via Telegram before it runs. Cheap to run, fully auditable.
+What it demonstrates:
 
-### 📫 Get in touch
-Open to roles at the **intersection of sales & AI** (AI-enabled GTM · RevOps · sales
-engineering) and to **freelance AI-automation** projects.
-[LinkedIn](https://www.linkedin.com/in/sebastian-spranger/) · 📍 München
+- integration of inconsistent web data sources;
+- a multi-user onboarding flow with Clerk and Telegram pairing;
+- practical filtering, deduplication and notification workflows;
+- unattended operation with explicit configuration and rate limits;
+- a product shaped around a real, time-sensitive user problem.
 
-<details>
-<summary>🇩🇪 Auf Deutsch</summary>
+## Current R&D
 
-<br>
+- Small, single-purpose AI agents with human approval before external actions
+- Cost-aware LLM orchestration using Claude and DeepSeek
+- Cross-project dependency mapping with AST parsing, NetworkX and community
+  detection
+- Research presentation to the team at X, the Moonshot Factory (Alphabet)
+- Experimental urban thermal-intelligence concepts using heat maps, comfort
+  analysis and intervention simulation
 
-**B2B-SaaS-Vertriebler von Beruf — KI-Automatisierungs-Bauer nach Feierabend.**
+The climate-tech and cross-project analysis work is experimental. I publish it
+only when the assumptions, limitations and demo are ready to inspect.
 
-Tagsüber Outbound & Pipeline im B2B-SaaS-Vertrieb (SDR @ StudySmarter, **€260k+ closed**,
-DACH). Nebenbei bringe ich mir bei, **autonome KI-Agenten-Systeme** zu bauen, die
-wiederkehrende Arbeit automatisieren — zunehmend auch *im* Vertrieb selbst.
+## Working principles
 
-Mein Ansatz: **kleine Agenten mit je einer Aufgabe** statt eines Alleskönner-Bots.
-Günstige Modelle, wo sie reichen; starke Reasoning-Modelle nur, wo sie ihren Preis wert
-sind; **Freigabe per Telegram**, bevor etwas rausgeht. Kein KI-Einheitsbrei — die
-Maschine schreibt den Entwurf, ich redigiere.
+- Start with the user constraint, not the model or framework.
+- Use the cheapest model that reliably handles the step.
+- Keep consequential actions behind a human approval gate.
+- Make assumptions, failure modes and operating cost visible.
+- Prefer one inspectable workflow over disconnected demos.
 
-- **wohnungsmonitor** — überwacht 5 Münchner Miet-Portale rund um die Uhr, meldet Treffer in Sekunden per Telegram. Kostenlos via GitHub Actions.
-- **Job-Matching-Monitor** *(privat)* — 20+ Quellen, zweistufige LLM-Pipeline, bewertet semantische Passung (0–100) statt Keywords.
-- **ai-job-search** — KI-Bewerbungs-Framework auf Claude Code.
+## Toolkit
 
-**Aktuell:** ein hierarchisches Multi-Agenten-System fürs Personal Branding —
-Manager-LLM plant, Worker-Agenten führen je eine Aufgabe aus, Freigabe per Telegram.
+`Python` | `TypeScript` | `FastAPI` | `SQLite` | `LLM orchestration` |
+`GitHub Actions` | `Telegram bots` | `HubSpot` | `Sales Navigator` |
+`NetworkX`
 
-Offen für Rollen an der **Schnittstelle Sales × KI** (AI-enabled GTM · RevOps) und für
-**Freelance-KI-Automatisierung**.
-</details>
+## What I am looking for
+
+I am open to Solutions Engineer, Sales Engineer and AI Solutions Consultant
+roles in Munich or remote, especially in B2B SaaS and climate-tech.
+
+[LinkedIn](https://www.linkedin.com/in/sebastian-spranger/) | Munich, Germany
