@@ -16,9 +16,9 @@ small systems that turn repetitive processes into auditable workflows.
 ### [wohnungsmonitor](https://github.com/sebastian-spranger/wohnungsmonitor)
 
 A Python service that monitors five Munich rental portals, filters listings by
-rent, size and commute, and sends relevant matches to Telegram. The current
-deployment runs as a 24/7 service on a VM. GitHub Actions runs CI, dependency
-audits, secret scans and a stateless scraper smoke test without notifications.
+rent, size and commute, and sends relevant matches to Telegram. Production runs
+as a 24/7 service on an Oracle VM; the public repository also contains a
+manually triggered GitHub Actions fallback for the scraper.
 
 What it demonstrates:
 
