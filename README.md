@@ -6,10 +6,10 @@ StudySmarter | Vaia, building pipeline across the DACH market. I am moving towar
 Solutions Engineering roles where technical discovery, credible demos and
 commercial judgment matter equally.
 
-Previously, as an Account Manager at 3DFrames, I personally closed three B2B SaaS
-contracts worth EUR 260k+ in six months, owning qualification, discovery,
-demonstrations and contract negotiation end to end. Outside my day job, I build
-small systems that turn repetitive processes into auditable workflows.
+Previously, as an Account Manager at 3DFrames, I owned B2B SaaS opportunities
+from qualification through discovery, demonstrations and contract negotiation.
+Outside my day job, I build small systems that turn repetitive processes into
+auditable workflows.
 
 ## Selected work
 
